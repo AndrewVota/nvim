@@ -1,8 +1,8 @@
-vim.keymap.set('n', 'n', 'nzzzv')
-vim.keymap.set('n', 'N', 'Nzzzv')
+vim.keymap.set("n", "n", "nzzzv")
+vim.keymap.set("n", "N", "Nzzzv")
 
 -- Unset arrow keys
-vim.cmd [[
+vim.cmd([[
     noremap <Left> <Nop>
     noremap <Right> <Nop>
     noremap <Up> <Nop>
@@ -13,7 +13,7 @@ vim.cmd [[
     inoremap <Right> <Nop>
     inoremap <Up> <Nop>
     inoremap <Down> <Nop>
-]]
+]])
 
 -- Disable mouse
-vim.cmd [[ set mouse= ]]
+vim.cmd([[ set mouse= ]])
