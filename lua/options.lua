@@ -4,3 +4,5 @@ vim.cmd("set softtabstop=4")
 vim.cmd("set shiftwidth=4")
 
 vim.g.mapleader = " "
+
+vim.wo.relativenumber=true
