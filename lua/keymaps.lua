@@ -1,6 +1,9 @@
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
+-- Remap jk to <ESC> to exit insert mode
+vim.api.nvim_set_keymap('i', 'jk', '<ESC>', {noremap = true})
+
 -- Unset arrow keys
 -- vim.cmd([[
 --  noremap <Left> <Nop>
