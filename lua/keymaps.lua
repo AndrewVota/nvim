@@ -5,7 +5,7 @@ vim.keymap.set("n", "N", "Nzzzv")
 vim.api.nvim_set_keymap('i', 'jk', '<ESC>', {noremap = true})
 
 -- Use ctrl-v to make a new vsplit
-vim.api.nvim_set_keymap('n', '<C-v>', ':vsplit<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<leader>v', ':vsplit<CR>', {noremap = true, silent = true})
 
 -- Use ctrl-[hjkl] to select the active split in Neovim using Lua
 vim.api.nvim_set_keymap('n', '<c-k>', '<cmd>wincmd k<CR>', {silent = true, noremap = true})
