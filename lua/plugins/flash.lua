@@ -1,8 +1,7 @@
 return {
   "folke/flash.nvim",
   event = "VeryLazy",
-  -- ---@type Flash.Config
-{ 'echasnovski/mini.pairs', version = '*' },
+  ---@type Flash.Config
   opts = {},
   -- stylua: ignore
   keys = {
