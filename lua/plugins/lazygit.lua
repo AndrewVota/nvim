@@ -1,6 +1,6 @@
 return {
 	"kdheepak/lazygit.nvim",
 	keys = {
-		{ "<leader>gg", "<cmd>LazyGit<cr>", desc = "Git" },
+		{ "<leader>gg", "<cmd>LazyGit<CR>", desc = "Git" },
 	},
 }
