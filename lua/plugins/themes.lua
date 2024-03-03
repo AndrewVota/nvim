@@ -30,4 +30,22 @@ return {
 			vim.cmd.colorscheme("everforest")
 		end,
 	},
+
+	{
+		"ellisonleao/gruvbox.nvim",
+		enabled = false,
+		lazy = false,
+		priority = 1000,
+		config = function()
+			require("gruvbox").setup({
+				transparent_mode = true,
+				contrast_dark = "hard",
+				contrast_light = "hard",
+				-- dark_sidebar = true,
+				-- dark_float = true,
+				-- dark_popup = true,
+			})
+			vim.cmd.colorscheme("gruvbox")
+		end,
+	},
 }
