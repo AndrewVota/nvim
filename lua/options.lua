@@ -23,7 +23,7 @@ vim.opt.breakindent = true
 -- Save undo history
 vim.opt.undofile = true
 
--- Case-insensitive searching UNLESS \C or capital in searcig
+-- Case-insensitive searching UNLESS \C or capital in searching
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
@@ -47,7 +47,7 @@ vim.opt.hlsearch = true
 -- Highlight when yanking (copying) text
 vim.api.nvim_create_autocmd("TextYankPost", {
 	desc = "Highlight when yanking (copying) text",
-	group = vim.api.nvim_create_augroup("kickstart-highlight-yank", { clear = true }),
+	group = vim.api.nvim_create_augroup("highlight-yank", { clear = true }),
 	callback = function()
 		vim.highlight.on_yank()
 	end,
