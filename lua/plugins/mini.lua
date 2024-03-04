@@ -22,6 +22,9 @@ return {
 		-- - sr)'  - [S]urround [R]eplace [)] [']
 		require("mini.surround").setup()
 
+		-- Create pairs of brackets, quotes, etc.
+		require("mini.pairs").setup()
+
 		-- Simple and easy statusline.
 		local statusline = require("mini.statusline")
 		statusline.setup()
