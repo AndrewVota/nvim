@@ -3,6 +3,7 @@
 -- https://github.com/numToStr/Comment.nvim
 return {
 	"numToStr/Comment.nvim",
+	enabled = false,
 	opts = {},
 	lazy = false,
 }
